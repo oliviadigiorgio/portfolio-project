@@ -42,6 +42,11 @@ p {
   background: var(--secondary-color);
   text-align: center;
   padding: 80px 20px;
+  border-radius: 20px;
+}
+
+.img-fluid {
+  border-radius: 20px;
 }
 
 .hero p {
@@ -85,7 +90,7 @@ p {
 }
 .img-rounded {
   border-radius: 20px;
-  max-height: 500px;
+  max-height: 450px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -150,6 +155,7 @@ footer {
 footer .contact-box {
   background: var(--secondary-color);
   padding: 30px 120px;
+  border-radius: 20px;
 }
 footer .email-link {
   text-decoration: none;
